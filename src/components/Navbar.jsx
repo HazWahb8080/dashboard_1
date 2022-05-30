@@ -3,8 +3,6 @@ import Card from "./card/Card";
 import {
   Drawer,
   DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
@@ -59,8 +57,6 @@ function Navbar() {
           <DrawerOverlay />
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>Create your account</DrawerHeader>
-
             <DrawerBody className="overflow-y-scroll scrollbar-hide">
               <div className="md:w-[250px] h-fit  md:flex flex-col items-center justify-between space-y-24 px-3">
                 {/* cards */}
