@@ -4,18 +4,15 @@ function Transfer() {
   return (
     <div className="w-full flex flex-col items-center justify-center px-2 py-2">
       <h1 className="text-md w-full py-6">
-        {" "}
-        <b className="text-4xl">Transfer</b> to Visa or MasterCard{" "}
+        <b className="text-4xl">Transfer</b> to Visa or MasterCard
       </h1>
       <div className="grid grid-cols-3 gap-4 w-full ">
         <div className="col-span-3 border-b border-black space-x-4 flex items-center justify-between w-full py-3 px-3 ">
           <h1 className="border-r self-center border-black w-[25%]"> From </h1>
           <h1 className="w-[50%] self-center"> MasterCard ... 4060 </h1>
           <h1 className="font-bold text-2xl w-[25%] items-end justify-end flex">
-            {" "}
-            60,450${" "}
+            60,450$
           </h1>
-          {/* <input className='w-full' type="number" placeholder="60,450$" /> */}
         </div>
         <div className="col-span-3 border-b border-black space-x-4 flex items-center justify-between w-full py-3 px-3 ">
           <h1 className="border-r self-center border-black w-[25%]"> To </h1>
@@ -40,11 +37,8 @@ function Transfer() {
 
         <div className="col-span-3 space-x-4 flex items-center justify-between w-full py-3 px-3 ">
           <div className="w-[40%] flex space-x-4  border-b border-black py-4">
-            <h1 className="border-r self-center border-black w-full">
-              {" "}
-              Amount{" "}
-            </h1>
-            <input className="w-full input " type="number" />
+            <h1 className="border-r self-center border-black w-full">Amount</h1>
+            <input className="w-full input text-xl font-bold " type="number" />
           </div>
           <div className="w-[40%] flex  space-x-4  border-b border-black py-4">
             <h1 className="border-r self-center border-black w-full"> CVV </h1>

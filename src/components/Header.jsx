@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NavLink from "./links/NavLink";
 import { nav_icon, notif_icon, search_icon } from "./../utils/svgs";
 
-
 let userImg =
   "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
 let navLinks = ["Overview", "Payments", "Cards", "Account", "Admin"];
